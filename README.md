@@ -10,9 +10,9 @@ Last week we learned how to set up web pages and embed some pre-existing maps. T
 ## Expected Outputs for this week / what to submit: 
 This repo contains starter code for a small, 4 page website that contains a series of different base maps, each on it's own page. You can preview the starter site by opening the `index.html` file by using a local host or you can trying opening it in a web browser. The first three pages you will modifying using the following files and instructions. 
 - Start with `index.html`. The instructions for completing this map are under [exercise1](/instructions/exercise1.md)
-- Next up is `Mapbox-gl-js-cwm.html`. The instructions for completing this map are under [exercise2](https://github.com/IDCE-MSGIS/studio-week2/blob/master/instructions/exercise2.md)
+- Next up is `Mapbox-gl-js-cwm.html`. The instructions for completing this map are under [exercise2](/instructions/exercise2.md)
 - Then there is `Mapbox-gl-js-ct.html`. Follow instructions in the  `Mapbox-gl-js-ct.html` file to add a marker and popup to a Mapbox GL JS map. There is no tutorial for this exercise: follow the comments in the file!
-- Finally, you'll create a brand new Mapbox style and insert it into `Mapbox-gl-js-bm.html`.  The instructions for completing this map are under [exercise4](https://github.com/IDCE-MSGIS/studio-week2/blob/master/instructions/exercise4.md)
+- Finally, you'll create a brand new Mapbox style and insert it into `Mapbox-gl-js-bm.html`.  The instructions for completing this map are under [exercise4](/instructions/exercise4.md)
 - Once you've completed all the exercises, you'll publish your website using Github pages. The specific type of site you'll use is called a "[project page](https://help.github.com/en/enterprise/2.14/user/articles/user-organization-and-project-pages)" and the set up will be similar to what you did with your first web site. While your website doesn't necessarily need to use an existing template or use Jekyll: I would like you to see if you can alter the background color, or the fonts in a way that compliements your map. Remember to always start simply by making sure that the small website contained in your repo can be viewed as a web page. Once that's done, you can start tinkering with more design options. 
 
 **At the end of the week you will submit a link to your repo via Moodle.** Happy coding!
