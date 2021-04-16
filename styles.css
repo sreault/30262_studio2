@@ -4,6 +4,7 @@ ul {
  padding: 1px;
  overflow: hidden;
  background-color: white;
+ font-family: "futura-pt","Source Sans Pro",arial,helvetica,sans-serif;
 }
 
 li {
@@ -22,13 +23,39 @@ li a {
  text-align: left;
  padding: 15px 17px;
  text-decoration: none;
+ font-family: "futura-pt","Source Sans Pro",arial,helvetica,sans-serif;
 }
 
 /* Links will change color when hovered over */
 li a:hover {
- background-color: #a09f9f;
+ background-color: #A1CA3A;
 }
 
 .active {
- background-color: #a09f9f;
+ background-color: #DF7125;
+}
+
+h7 {
+    font-family: "futura-pt","Source Sans Pro",arial,helvetica,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: solid 2px #A1CA3A;
+    color: #DF7125;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    padding: 18px;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+}
+
+h8 {
+    font-family: "futura-pt","Source Sans Pro",arial,helvetica,sans-serif;
+    font-size: 16px;
+    color: rgb(97, 162, 41);
+    padding: 18px
+    padding: 15px 17px;
+    line-height: 18px;
 }

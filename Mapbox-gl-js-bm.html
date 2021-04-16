@@ -31,14 +31,17 @@
   <br>
 
     <!-- Container for the map -->
+    <div class="blurb">
+      <h7> This mapbox style was created based on the color scheme of the Jane Goodall Institute</h7>
+    </div><!-- /.blurb -->
+  <br>
     <div id="mapId"></div>
-
     <script>
     // Set your Mapbox access token
-    mapboxgl.accessToken = "";
+    mapboxgl.accessToken = "pk.eyJ1Ijoic3JlYXVsdCIsImEiOiJja25qYXF4OGMwODlwMm9tMmF3a2V5cHh5In0.rmpWlPsAnyN1YBg4XTJQug";
 
     /* The map variable stores a new mapbox gl map.
-    * map's center set to [-122.467, 37.798] with zoom 13. 
+    * map's center set to [-122.467, 37.798] with zoom 13.
     * Set the style URL to your custom style
     * Update the style with your custom style's Style URL.
     * See the Style URL'S reference for more info: https://docs.mapbox.com/help/glossary/style-url/
@@ -46,12 +49,19 @@
     var map = new mapboxgl.Map({
     center: [-122.467, 37.798],
     zoom: 13,
-    style: "",
+    style: "mapbox://styles/sreault/cknkbugft0eke17pdvwp8t1sl",
     container: "mapId"
     });
-
     </script>
+    <div class="blurb">
 
+      <h8> <br>
+      In order to style this map, I accessed the <a href='https://www.janegoodall.org/'>Jane Goodall Institute</a> website,
+      and used inspect in order to access color codes and faunt information.
+      I chose the colors for different map features based on what logical and stylistic sense.
+      Some colors were altered to different hues in order to be more aesthetically pleasing on the map.
+    </h8>
+    </div><!-- /.blurb -->
 </body>
 
 </html>
